@@ -74,4 +74,8 @@ int main ( ) {
         printf("%d, ", resposta3[i]);   
     }
     printf("]\n");
+
+    free ( resposta1 );
+    free ( resposta2 );
+    free ( resposta3 );
 }
